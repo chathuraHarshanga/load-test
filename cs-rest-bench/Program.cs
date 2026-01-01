@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.WebHost.UseUrls("http://localhost:5000");
+builder.WebHost.UseUrls("http://*:9090");
 var app = builder.Build();
 
 // GET /benchmark?arraySize=200000&cpuIterations=8000000

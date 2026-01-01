@@ -26,3 +26,4 @@
 /Users/chathuraharshanga/Desktop/Bal-load-test/cs-rest-bench/obj/Debug/net10.0/cs-rest-bench.pdb
 /Users/chathuraharshanga/Desktop/Bal-load-test/cs-rest-bench/obj/Debug/net10.0/cs-rest-bench.genruntimeconfig.cache
 /Users/chathuraharshanga/Desktop/Bal-load-test/cs-rest-bench/obj/Debug/net10.0/ref/cs-rest-bench.dll
+/Users/chathuraharshanga/Desktop/Bal-load-test/cs-rest-bench/obj/Debug/net10.0/cs-rest-bench.sourcelink.json
