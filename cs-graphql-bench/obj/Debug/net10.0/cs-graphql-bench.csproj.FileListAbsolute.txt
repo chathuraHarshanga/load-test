@@ -66,3 +66,4 @@
 /Users/chathuraharshanga/Desktop/Bal-load-test/cs-graphql-bench/obj/Debug/net10.0/cs-graphql-bench.pdb
 /Users/chathuraharshanga/Desktop/Bal-load-test/cs-graphql-bench/obj/Debug/net10.0/cs-graphql-bench.genruntimeconfig.cache
 /Users/chathuraharshanga/Desktop/Bal-load-test/cs-graphql-bench/obj/Debug/net10.0/ref/cs-graphql-bench.dll
+/Users/chathuraharshanga/Desktop/Bal-load-test/cs-graphql-bench/obj/Debug/net10.0/cs-graphql-bench.sourcelink.json
