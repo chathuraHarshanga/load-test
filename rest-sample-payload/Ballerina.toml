@@ -1,0 +1,8 @@
+[package]
+org = "chathuraharshanga"
+name = "rest_sample_payload"
+version = "0.1.0"
+distribution = "2201.12.2"
+
+[build-options]
+observabilityIncluded = true
