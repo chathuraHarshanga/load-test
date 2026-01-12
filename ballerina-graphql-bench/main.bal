@@ -45,7 +45,7 @@ function createArray(int size) returns int[] {
     int[] arr = [];
     int i = 0;
     while i < size {
-        arr.push(i);
+        arr[i] = i;
         i += 1;
     }
     return arr;
