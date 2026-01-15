@@ -6,10 +6,16 @@ var builder = WebApplication.CreateBuilder(args);
 builder.WebHost.UseUrls("http://*:9090");
 var app = builder.Build();
 
-// GET /greet/{name}
-app.MapGet("/greet/{name}", (string name) => $"Hello, {name}!");
+app.MapGet("/greet", () =>
+{
+    var name = Environment.GetEnvironmentVariable("NAME");
 
-// Optional health check
-app.MapGet("/", () => "OK");
+    if (string.IsNullOrEmpty(name))
+    {
+        return Results.Ok("Hello, NAME environment variable is not set");
+    }
+
+    return Results.Ok($"Hello, {name}!");
+});
 
 app.Run();
