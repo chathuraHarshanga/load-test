@@ -1,0 +1,29 @@
+openapi: 3.0.3
+info:
+  title: Greeting API
+  version: 1.0.0
+  description: A simple API that returns a greeting based on the NAME environment variable.
+
+servers:
+  - url: http://localhost:9090
+
+paths:
+  /greet:
+    get:
+      summary: Get greeting message
+      description: Returns a greeting using the NAME environment variable. If NAME is not set or is empty, a default message is returned.
+      operationId: getGreeting
+      responses:
+        '200':
+          description: Successful response
+          content:
+            text/plain:
+              schema:
+                type: string
+                examples:
+                  nameSet:
+                    summary: NAME is set
+                    value: Hello, John!
+                  nameNotSet:
+                    summary: NAME is not set
+                    value: Hello, NAME environment variable is not set

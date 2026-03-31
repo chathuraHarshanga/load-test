@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/chathuraharshanga/Desktop/Bal-load-test/sample-dotnet-rest/sample-dotnet-rest.csproj": {}
+    "/Users/chathuraharshanga/Desktop/gittest/load-test/sample-dotnet-rest/sample-dotnet-rest.csproj": {}
   },
   "projects": {
-    "/Users/chathuraharshanga/Desktop/Bal-load-test/sample-dotnet-rest/sample-dotnet-rest.csproj": {
+    "/Users/chathuraharshanga/Desktop/gittest/load-test/sample-dotnet-rest/sample-dotnet-rest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/chathuraharshanga/Desktop/Bal-load-test/sample-dotnet-rest/sample-dotnet-rest.csproj",
+        "projectUniqueName": "/Users/chathuraharshanga/Desktop/gittest/load-test/sample-dotnet-rest/sample-dotnet-rest.csproj",
         "projectName": "sample-dotnet-rest",
-        "projectPath": "/Users/chathuraharshanga/Desktop/Bal-load-test/sample-dotnet-rest/sample-dotnet-rest.csproj",
+        "projectPath": "/Users/chathuraharshanga/Desktop/gittest/load-test/sample-dotnet-rest/sample-dotnet-rest.csproj",
         "packagesPath": "/Users/chathuraharshanga/.nuget/packages/",
-        "outputPath": "/Users/chathuraharshanga/Desktop/Bal-load-test/sample-dotnet-rest/obj/",
+        "outputPath": "/Users/chathuraharshanga/Desktop/gittest/load-test/sample-dotnet-rest/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/chathuraharshanga/.nuget/NuGet/NuGet.Config"
